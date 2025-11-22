@@ -2,69 +2,10 @@ Movie Revenue Prediction – H2O AutoML Project
 
 <img width="400" height="300" alt="Variable Importance" src="https://github.com/user-attachments/assets/bc29eaee-3e95-448e-8804-63df585214d9" />
 
-This project builds a full predictive modeling pipeline to estimate movie box-office revenue using H2O AutoML. Using a dataset of 506 films, the workflow includes data preparation, exploratory analysis, model training, ensemble selection, deployment, and business-focused interpretation. The final Stacked Ensemble model explains ~90% of revenue variance and provides actionable insights for forecasting future film performance.
+This project delivers a full end-to-end machine learning pipeline using Python and H2O AutoML to forecast movie box-office revenue based on production budgets, marketing spend, talent ratings, engagement metrics, and distribution attributes. It demonstrates my ability to perform exploratory analysis, engineer features, train and evaluate multiple machine learning models, deploy an ensemble model, and translate technical results into clear business recommendations.
 
-Movie-Revenue-AutoML/
-│
-├── movie_regression_h2o_pipeline.py
-├── Movie_regression (1).csv
-├── Report/
-│ └── DS_Report.pdf
-├── Screenshots/
-│ ├── Budget vs Collection.png
-│ ├── Distribution of Movie Rev.png
-│ ├── Trailer Views vs Collection.png
-│ ├── Residual Analysis.png
-│ ├── Variable Importance.png
-│ └── Variable Importance Heatmap.png
-└── README.md
+Using pandas, NumPy, Seaborn, Matplotlib, and H2O, the pipeline automates model training across GBM, DRF, Deep Learning, and Stacked Ensemble architectures. H2O AutoML selected a Stacked Ensemble as the top-performing model, achieving strong predictive accuracy on unseen data (R² ≈ 0.898, RMSE ≈ $6.24K). Feature interpretation revealed that Budget, Trailer_views, and Multiplex coverage were the most influential drivers of revenue across models.
 
-Project Objectives
+To demonstrate practical application, the deployed model was used to forecast revenue for a hypothetical new film with moderate marketing activity, strong trailer engagement, and wide multiplex reach. The model estimated an expected box-office revenue of approximately $91,509. This capability allows users to simulate the financial impact of promotional strategies, test alternative release plans, and support data-driven decision-making before a film enters the market.
 
-Identify which features most strongly influence movie revenue.
-
-Build an automated machine learning pipeline using H2O AutoML.
-
-Evaluate multiple models (GBM, DRF, Deep Learning, Ensembles).
-
-Deploy the top-performing model for scoring new films.
-
-Deliver a clear, business-ready report for stakeholders.
-
-Key Results
-
-Top Model: Stacked Ensemble (Best of Family)
-
-Test R²: ~0.898
-
-Test RMSE: ~$6.24K
-
-Top Predictors: Budget, Trailer Views, Multiplex Coverage
-
-Use Case: Pre-release forecasting, marketing allocation, scheduling decisions
-
-How to Run the Pipeline
-
-Install dependencies:
-
-pip install h2o pandas numpy seaborn matplotlib
-
-
-Ensure Java (JDK 17+) is installed for H2O.
-
-Run the script:
-
-python movie_regression_h2o_pipeline.py
-
-
-The model will train, evaluate, output diagnostics, and save the best model.
-
-Files Included
-
-Dataset: Movie_regression (1).csv
-
-Python Pipeline: movie_regression_h2o_pipeline.py
-
-Screenshots: Learning curve, residuals, variable importance, etc.
-
-Final Report: Data science analysis and recommendations
+The repository includes the full Python pipeline, dataset, exploratory visualizations, AutoML outputs, and a complete written report. Overall, the project showcases my proficiency in modern machine learning tooling, automated modeling workflows, data visualization, and delivering insights that bridge technical analysis and business value.
