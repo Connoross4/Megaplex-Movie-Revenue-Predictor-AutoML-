@@ -4,7 +4,7 @@ Movie Revenue Prediction – H2O AutoML Project
 
 This project builds a full predictive modeling pipeline to estimate movie box-office revenue using H2O AutoML. Using a dataset of 506 films, the workflow includes data preparation, exploratory analysis, model training, ensemble selection, deployment, and business-focused interpretation. The final Stacked Ensemble model explains ~90% of revenue variance and provides actionable insights for forecasting future film performance.
 
-📁 Movie-Revenue-AutoML/
+Movie-Revenue-AutoML/
 │
 ├── movie_regression_h2o_pipeline.py
 ├── Movie_regression (1).csv
