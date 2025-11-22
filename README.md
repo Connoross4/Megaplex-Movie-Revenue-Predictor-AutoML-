@@ -1,4 +1,5 @@
 Movie Revenue Prediction – H2O AutoML Project
+
 <img width="400" height="300" alt="Variable Importance" src="https://github.com/user-attachments/assets/bc29eaee-3e95-448e-8804-63df585214d9" />
 
 This project builds a full predictive modeling pipeline to estimate movie box-office revenue using H2O AutoML. Using a dataset of 506 films, the workflow includes data preparation, exploratory analysis, model training, ensemble selection, deployment, and business-focused interpretation. The final Stacked Ensemble model explains ~90% of revenue variance and provides actionable insights for forecasting future film performance.
