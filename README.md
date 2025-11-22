@@ -1,21 +1,21 @@
 Movie Revenue Prediction – H2O AutoML Project
-<img width="800" height="600" alt="Variable Importance" src="https://github.com/user-attachments/assets/bc29eaee-3e95-448e-8804-63df585214d9" />
+<img width="400" height="300" alt="Variable Importance" src="https://github.com/user-attachments/assets/bc29eaee-3e95-448e-8804-63df585214d9" />
 
 This project builds a full predictive modeling pipeline to estimate movie box-office revenue using H2O AutoML. Using a dataset of 506 films, the workflow includes data preparation, exploratory analysis, model training, ensemble selection, deployment, and business-focused interpretation. The final Stacked Ensemble model explains ~90% of revenue variance and provides actionable insights for forecasting future film performance.
 
 📁 Movie-Revenue-AutoML/
 │
-├── movie_regression_h2o_pipeline.py   # Full Python pipeline (EDA → AutoML → Deploy)
-├── Movie_regression (1).csv            # Source dataset (506 films, 18 features)
-├── Report/                             # Final written analysis
-│     └── DS_Report.pdf (or .docx)      # Business-focused data science report
-├── Screenshots/                        # Visuals used in the report
-│     ├── Budget vs Collection.png
-│     ├── Distribution of Movie Rev.png
-│     ├── Trailer Views vs Collection.png
-│     ├── Residual Analysis.png
-│     ├── Variable Importance.png
-│     └── ... (other AutoML outputs)
+├── movie_regression_h2o_pipeline.py
+├── Movie_regression (1).csv
+├── Report/
+│ └── DS_Report.pdf
+├── Screenshots/
+│ ├── Budget vs Collection.png
+│ ├── Distribution of Movie Rev.png
+│ ├── Trailer Views vs Collection.png
+│ ├── Residual Analysis.png
+│ ├── Variable Importance.png
+│ └── Variable Importance Heatmap.png
 └── README.md
 
 Project Objectives
